@@ -1,7 +1,21 @@
-.venv/
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# Data & Models (Crucial for PIML)
 data/raw/*
 data/processed/*
 models/*.h5
 models/*.pth
+models/*.pkl
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Environment secrets
 .env
